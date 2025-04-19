@@ -1,0 +1,15 @@
+{
+  "version": 3,
+  "sourceRoot": "",
+  "sources": [
+    "../scss/base/_reset.scss",
+    "../scss/abstracts/_variables.scss",
+    "../scss/base/_base.scss",
+    "../scss/layout/_layout.scss",
+    "../scss/components/_grid.scss",
+    "../scss/abstracts/_colors.scss"
+  ],
+  "names": [],
+  "mappings": "AAGA;EACE;EACA;EACA;EACA,aCNW;;;ACEb;EACE,kBDFQ;;;ACKV;EACE,ODLW;ECMX;;;ACNF;EACE;EACA;EACA;;;AAGF;EACE;EACA;EACA;EACA;;;AAGF;EACE,OFdW;;;AEiBb;EACE;;;AAGF;EACE;EACA;EACA;EACA,kBF1BQ;EE2BR;EACA;EACA;EACA;EACA;EACA;;;AAGF;EACE;;;AAGF;EACE;EACA;EACA;EACA;EACA;EACA;EACA;;;AC5CF;EACE;EACA;EACA,kBHFQ;EGGR;EACA;EACA;EACA;EACA;;;AAGF;EACE,OHVS;EGWT,QHXS;EGYT;EACA,WHZc;EGad;EACA;EACA;EACA;;;AAIA;EACE,kBC3BU;ED4BV;;;AAFF;EACE,kBC3BU;ED4BV;;;AAFF;EACE,kBC3BU;ED4BV;;;AAFF;EACE,kBC3BU;ED4BV;;;AAFF;EACE,kBC3BU;ED4BV;;;AAFF;EACE,kBC3BU;ED4BV;;;AAFF;EACE,kBC3BU;ED4BV;;;AAFF;EACE,kBC3BU;ED4BV;;;AAFF;EACE,kBC3BU;ED4BV;;;AAFF;EACE,kBC3BU;ED4BV;;;AAFF;EACE,kBC3BU;ED4BV",
+  "file": "style.css"
+}

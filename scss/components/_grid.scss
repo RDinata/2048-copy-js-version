@@ -1,0 +1,32 @@
+// src/scss/components/_grid.scss
+@use "../abstracts/variables" as vars;
+@use "../abstracts/colors" as abs;
+
+.grid {
+  width: 25em;
+  height: 25em;
+  background-color: vars.$grid-bg;
+  border: 5px solid vars.$border-color;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 0.5em;
+}
+
+.box {
+  width: vars.$box-size;
+  height: vars.$box-size;
+  border: 5px solid vars.$border-color;
+  font-size: vars.$box-font-size;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@each $value, $color in abs.$tile-colors {
+  .box-#{$value} {
+    background-color: $color;
+    color: if($value > 4, white, #727371);
+  }
+}

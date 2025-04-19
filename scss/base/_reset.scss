@@ -1,0 +1,9 @@
+// scss/base/_reset.scss
+@use "../abstracts/variables" as vars;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: vars.$font-stack;
+}
